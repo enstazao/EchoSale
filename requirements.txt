@@ -6,3 +6,4 @@ openai
 streamlit
 python-dotenv
 langchain_openai
+jupyterlab
