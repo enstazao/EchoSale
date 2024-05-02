@@ -1,5 +1,4 @@
 # EchoSale
-
 ![opener_agent_ui](images/opener_agent_ui.png)
 ![escalator_agent_ui](images/escalator_agent_ui.png)
 
@@ -34,26 +33,37 @@ The goal of these agents is to streamline the sales process by generating person
 
 
 ## Steps to Run the Code
-1. Create a virtual Environment
+1. Clone the repository.
+
+```bash
+git clone https://github.com/enstazao/EchoSale.git
+```
+
+2. Create a virtual Environment
 
 ```bash
 conda create -n echosale_env python=3.10
 ```
 
-2. I have added all the dependencies in the file requirements.txt run this command to install all the requirements.
+3. I have added all the dependencies in the file requirements.txt run this command to install all the requirements.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a new file .env and place OPENAI_API_KEY their.
+4. Create a new file .env and place OPENAI_API_KEY their.
 
 ```bash
 OPENAI_API_KEY="Your_OPENAI_API_KEY"
 ```
 
-3. Now run the streamlit application.
+5. Now run the streamlit application.
 
 ```bash
 streamlit run app.py
 ``` 
+
+## Opener Agent Inputs, Outputs CSV
+[https://docs.google.com/spreadsheets/d/1NCRNOnNK1kzKHRKCKYqJGoATY3YPBro1n3MMe04HvMg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1NCRNOnNK1kzKHRKCKYqJGoATY3YPBro1n3MMe04HvMg/edit?usp=sharing)
+## Escalator Agent Inputs, Outpus CSV
+[https://docs.google.com/spreadsheets/d/19MFeFBwUx-9d6-7PFJXs0EKJENtuzy2E4cHy9l6_zZo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19MFeFBwUx-9d6-7PFJXs0EKJENtuzy2E4cHy9l6_zZo/edit?usp=sharing)
