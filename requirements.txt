@@ -1,0 +1,8 @@
+langchain
+unstructured
+openai
+tiktoken
+openai
+streamlit
+python-dotenv
+langchain_openai
