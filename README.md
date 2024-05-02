@@ -37,23 +37,23 @@ The goal of these agents is to streamline the sales process by generating person
 1. Create a virtual Environment
 
 ```bash
-        conda create -n echosale_env python=3.10
+conda create -n echosale_env python=3.10
 ```
 
 2. I have added all the dependencies in the file requirements.txt run this command to install all the requirements.
 
 ```bash
-        pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Create a new file .env and place OPENAI_API_KEY their.
 
 ```bash
-    OPENAI_API_KEY="Your_OPENAI_API_KEY"
+OPENAI_API_KEY="Your_OPENAI_API_KEY"
 ```
 
 3. Now run the streamlit application.
 
 ```bash
-        streamlit run app.py
-```
+streamlit run app.py
+``` 
