@@ -4,6 +4,9 @@ from langchain import LLMChain
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
+
+# @desc     Generate an email based on the prompt 
+# @prompt   prompts/escalator_agent_prompt.md
 def setup_escalator_chain():
     # Load environment variables
     load_dotenv()

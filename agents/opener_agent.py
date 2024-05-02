@@ -4,6 +4,8 @@ from langchain import LLMChain
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
+# @desc    Generate an email based on the prompt 
+# @prompt   prompts/opener_agent_prompt.md
 def setup_opener_chain():
     # Load environment variables
     load_dotenv()
